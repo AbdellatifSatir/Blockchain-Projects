@@ -1,0 +1,13 @@
+
+npm init -y
+npm install --save-dev hardhat // or // npm install -g truffle
+npx hardhat  // Create a Hardhat project 
+
+Create contract file inside contracts folder SayHey.sol
+Create a deployment script scripts/deploy.js 
+
+npx hardhat node // Start a Local Hardhat Node
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network localhost  // Deploy the contract
+
+
